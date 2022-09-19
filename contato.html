@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato - Barbearia Alura</title>
+</head>
+<body>
+
+    <header>
+        <div class="caixa">
+            <h1><a href="index.html"><img src="imagens-produto/logo.png" alt="logo site"></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produto.html">Produtos</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    
+    <main>
+        
+            <form>
+                <label for="nomesobrenome">Nome Sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="João Vitor moraes">
+
+                <label for="email">Endereço de email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="jorginautopeca@gmail.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="" id="mensagem" cols="70" rows="10"></textarea>
+
+                <fieldset>
+
+                    <legend>Como prefere o nosso Contato</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="radio-email">Email</label>
+
+                    <label for="radio-telefone"><input type="radio" name="contato" value="radio-telefone">Telefone</label>
+
+                    <label for="radio-whatssap"><input type="radio" name="contato" value="radio-whatssap" checked>Whatssap</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qual Horario de Atendimento</legend>
+
+                    <select name="" id="">
+
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+
+                    </select>
+                </fieldset>
+
+                <label class="checkbox" for=""><input type="checkbox">Gostaria de Receber nossas novidades por email</input></label>
+
+                <input class="enviar" type="submit" value="Enviar Formulario">
+            </form>
+
+            <table>
+
+                    <thead>
+                    
+                        <tr>
+                            <th>DIA</th>
+                            <th>HORARIO</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>SEGUNDA</td>
+                            <td>08h - 20h</td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <td>QUARTA</td>
+                            <td>08h - 20h</td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <td>SEXTA</td>
+                            <td>08h - 20h</td>
+                        </tr>
+                    </tbody>
+
+            </table>
+
+    </main>
+
+    <footer>
+        <img src="imagens-produto/logo-branco.png" alt="">
+        <p class="copyright">&#169; Copright Barbearia Alura 2022</p>
+    </footer>
+
+</body>
+</html>
+</body>
+</html>
